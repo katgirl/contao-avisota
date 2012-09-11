@@ -1,4 +1,4 @@
-<?php if (!isset($GLOBALS['objPage'])): echo $GLOBALS['TL_LANG']['tl_avisota_newsletter']['online'] . "\n" ?>
+<?php if (defined('AVISOTA_TRANSPORT')): echo $GLOBALS['TL_LANG']['tl_avisota_newsletter']['online'] . "\n" ?>
 [{{newsletter::href}}]
 <?php endif; ?>
 

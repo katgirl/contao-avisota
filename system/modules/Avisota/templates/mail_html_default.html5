@@ -12,7 +12,7 @@
 	<tbody>
 		<tr>
 			<td>
-				<?php if (!isset($GLOBALS['objPage'])): ?><div id="onlinelink"><a href="{{newsletter::href}}"><?php echo $GLOBALS['TL_LANG']['tl_avisota_newsletter']['online'] ?></a></div><?php endif ?>
+				<?php if (defined('AVISOTA_TRANSPORT')): ?><div id="onlinelink"><a href="{{newsletter::href}}"><?php echo $GLOBALS['TL_LANG']['tl_avisota_newsletter']['online'] ?></a></div><?php endif ?>
 			</td>
 		</tr>
 	</tbody>

@@ -44,6 +44,9 @@ define('TL_FILES_URL', '');
 define('TL_SCRIPT_URL', '');
 define('TL_PLUGINS_URL', '');
 
+// Define constant to identify transport mode
+define('AVISOTA_TRANSPORT', true);
+
 // initialize contao
 include('../../initialize.php');
 
